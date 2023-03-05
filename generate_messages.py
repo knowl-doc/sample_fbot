@@ -11,5 +11,6 @@ replies = [
 ]
 
 
-def generate_reply():
+def generate_funny_reply(tweet_text):
+    # TODO: modify this so we generate funny reply based on tweet text
     return replies[random.randrange(0, 8)]
