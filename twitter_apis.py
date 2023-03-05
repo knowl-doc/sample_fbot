@@ -3,6 +3,8 @@ import time
 import random
 import os
 
+from .generate_messages import generate_funny_reply
+
 consumer_key = os.getenv('CONSUMER_KEY')
 consumer_secret = os.getenv('CONSUMER_SECRET')
 access_token = os.getenv('TWITTER_ACCESS_TOKEN')
